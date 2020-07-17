@@ -64,7 +64,7 @@ export default function MissedCalls() {
 
     for(var i = 0; i < datesBetweenStartEnd.length; i++) {
       dict[datesBetweenStartEnd[i]] = {
-        date: item.startDate.slice(5, 10).replace('-', '/'),
+        date: datesBetweenStartEnd[i],
         Missed: 0,
         MissedColor: 'hsl(45, 70%, 50%)',
         Incidents: 2, //temporary number
